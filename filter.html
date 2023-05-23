@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library Management</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .center
+    {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo.jpg" alt="Library Logo">
+        </div>
+        <ul class="navbar-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="book.html">Booklist</a></li>
+          <li><a href="filter.html">Filter</a></li>
+        </ul>
+        <div class="burger-menu" onclick="toggleNavbar()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <h1>Library Management Books Filter</h1>
+  <div id="filters">
+    <p >
+    <input type="text" id="titleFilter" placeholder="Title">
+    <input type="text" id="authorFilter" placeholder="Author">
+    <input type="text" id="subjectFilter" placeholder="Subject">
+    <input type="text" id="publishDateFilter" placeholder="Publish Date">
+    <button class="center" onclick="applyFilters()">Apply Filters</button>
+  </p>
+  </div>
+
+  <div id="bookList"></div>
+  <div id="page"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

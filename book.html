@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library Management</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">  
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo.jpg" alt="Library Logo">
+        </div>
+        <ul class="navbar-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="book.html">Booklist</a></li>
+          <li><a href="filter.html">Filter</a></li>
+        </ul>
+        <div class="burger-menu" onclick="toggleNavbar()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+  <h1>LIBRARY BOOKS</h1>
+  <div id="bookListAll"></div>
+  <div id="page"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
