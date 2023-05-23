@@ -9,10 +9,10 @@ This is a responsive web page which can be dynamic in mobile phones ,tablet and 
 Added a hamburger option in the webpage
 </br>
 Programming Languages used :
-<li>HTML<li>
+<li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
-
+</br>
 Requirements: 
 <li>Browser (js compiler enabled) </li>
 <li>Internet connectivity</li>
