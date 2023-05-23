@@ -6,14 +6,14 @@ It is an frontend application which show cast Home page and All the books presen
 
 Programming Languages used :
 <li>
-°HTML
-•CSS
-°JavaScript
+°HTML<li>
+<li>•CSS</li>
+<li>°JavaScript
   </li>
 
 Requirements: 
-•Browser (js compiler enabled) 
-•Internet connectivity
+<li>•Browser (js compiler enabled) </li>
+<li>•Internet connectivity</li>
 
 This application is tested in chrome web browser
 
